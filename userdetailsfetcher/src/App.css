@@ -1,0 +1,48 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px !important;
+  margin: auto;
+  row-gap: 10px;
+  height: 160px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.circular-progress{
+  height: 100px;
+}
+
+.App-header {
+  height: 100px;
+}
+
+.userfields{
+  display: flex;
+  column-gap: 10px;
+  min-width: 250px;
+  > div:first-child{
+    width: 50px;
+    font-weight: 500;
+  }
+}
+
+.title{
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 11px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
